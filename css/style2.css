@@ -1,0 +1,71 @@
+
+.section1{
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/section1.jpg);
+    background-attachment: fixed;
+
+}
+
+.btns{
+
+    display: inline-block;
+    border: 1px solid;
+    padding: 20px  10px 20px 0px;
+    color: white;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 10px;
+    transition: 0.5s all;
+    padding-right: 80px;
+}
+
+.btns:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: black;
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+
+.doodle{
+    height: 400px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/doodle.jpg);
+    background-attachment: fixed;
+}
+
+
+
+.cardimgsize{
+    width: 80px;
+}
+
+.homebtn_row .btns{
+    margin: 5px 2.5px;
+}
+
+.univ_main_padded{
+    padding-top: 80px;
+}
+
+.univ_text_align{
+    text-align: center;
+}
+
+@media only screen and (min-width: 601px){
+    .univ_main_padded{
+        padding-top: 150px;
+    }
+
+    .univ_text_align{
+        text-align: justify;
+    }
+}
+
+
+
+
